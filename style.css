@@ -1,0 +1,110 @@
+html, body {
+    background: rgb(41, 41, 41);
+    font-family: 'Segoe UI';
+}
+
+input {
+    background: rgb(92, 92, 128);
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: 0.4s;
+    font-size: 15pt;
+    border: none;
+    color: white;
+    height: 35px;
+}
+
+input:hover {
+    background: rgb(78, 78, 109);
+    border-radius: 8px;
+}
+
+button {
+    background-color: rgb(92, 92, 128);
+    left: calc(50% - 64px);
+    border-radius: 8px;
+    position: absolute;
+    transition: 0.4s;
+    font-size: 12pt;
+    margin: 3px 4px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(80, 80, 102);
+    border-radius: 14px;
+}
+
+button:active {
+    background-color: rgb(92, 92, 200);
+    border-radius: 6px;
+    transition: 0.15s;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.buttons {
+    align-items: center;
+}
+
+.buttons li:last-child { 
+    margin-top: -10px;
+}
+
+.buttons li:not(:last-child) { 
+   margin-bottom: 60px;  
+}
+
+#shuffle-btn {
+    font-size: 18pt;
+    height: 50px;
+}
+
+#remove-btn {
+    display: none;
+}
+
+.vl {
+    border-left: 4px solid rgb(122, 122, 139);
+    position: absolute;
+    margin-left: -2px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+}
+
+.name-container {
+    float: right;
+}
+
+.flex-container {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    float: left;
+    width: 50%;
+    right: 0;
+}
+
+.not-selectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
